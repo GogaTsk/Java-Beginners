@@ -1,0 +1,133 @@
+body {
+  background: #1f2a33;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.borda{  
+  border: 2px solid #aaa5a4;
+  border-radius: 5px;
+}
+
+#price-input {
+  width:80px;
+}
+#product-list{
+  margin-right: 240px;
+}
+
+ul li {
+  margin-top: 20px;
+  font-size: 20px; 
+  color: white;
+  margin-left: 150px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+}
+
+ h1 {
+  color: white;
+  font-size: 20px;
+} 
+
+#sum {
+  margin-left:15px;
+}
+.form__field {
+  width: 70%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+.form__field:focus {
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #6d7272,#ef3838);
+  border-image-slice: 1;
+}
+
+.input-container {
+  display: flex;
+  margin-left: 150px;
+}
+
+.form {
+  margin-left: 50px;
+}
+.btn-container {
+  margin-top: 20px;
+  margin-left: 150px
+}
+.product-btn, .price-btn{
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #aaa5a4;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-right: 84px;
+}
+
+.product-btn:hover, .price-btn:hover{
+  cursor: pointer;
+  background: #6f7a8b;
+ letter-spacing: 1px;
+ -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+ -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+ box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+ transition: all 0.4s ease 0s;
+}
+
+
+.cart {
+  width: 5%;
+  margin-right: 10px;
+}
+.cart-2 {
+  width: 20%;
+  margin-right: 10px;
+}
+.product-btn{
+  padding:12px;
+  width:30%;
+  display: flex;
+  align-items: center;
+}
+.sum-container{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 150px;
+  margin-bottom: 10px;
+}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+}
